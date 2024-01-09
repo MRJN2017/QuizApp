@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    >
+
+         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/color2"
+        android:textColor="@color/white"
+        android:text="Rangkuman Materi"
+             android:textSize="25dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Rangkuman"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tpm"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tpu1"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tpm2"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tpu2"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tpm3"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tpu3"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tpm4"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tpm5"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbiru"
+    tools:context=".SelectStudyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Silakan Pilih Materi Pembelajaran"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="35dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bt_mtpu"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/level1_bg"
+        android:text="Materi Tabel Periodik Modern"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_mspu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_mspu"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/information_button_bg"
+        android:text="Materi Sistem Periodik Unsur"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_mtpu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
